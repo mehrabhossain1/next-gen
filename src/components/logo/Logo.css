@@ -1,0 +1,36 @@
+:root {
+  --Gradient: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
+}
+
+.l1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 43.88px;
+  width: 90px;
+  height: 44px;
+
+  background: var(--Gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.l2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  /* -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: var(--Gradient);
+  -webkit-text-stroke-width: 2px; */
+
+  /* background: var(--Gradient); */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #5c43f6;
+  -webkit-text-stroke-width: 2px;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
